@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./script.js" defer></script>
+    <script src="https://kit.fontawesome.com/ea6733594a.js" crossorigin="anonymous"></script>
+    <title>My To Do List</title>
+</head>
+<body>
+    <header>
+        <img src="./images/800px-JavaScript-logo.png" alt="Logo JAvascript" width="150px">
+        <h1>My to do List <br> <span class="gris">project</span></h1>
+        <div class="trait"></div>
+    </header>
+    <main>
+<h2>Créer une tâche</h2>
+        <div class="bloc_form">
+            <form action="#">                
+                <input type="text" class="tache" name="tache" placeholder="Saisir votre tâche ici :">
+                <div class="btn">
+                    <button class="bouton_ajouter" type="submit">Ajouter</button>
+                </div>
+            </form>
+        </div>
+        <section>
+            <h2>En cours</h2>
+            <!-- <aside>
+                <p>Actions</p>
+               <button><i class="fa-solid fa-pencil"></i></button> 
+                <button><i class="fa-solid fa-circle-check"></i></button>
+                <button><i class="fa-solid fa-trash-can"></i> </button>                  
+            </aside>   -->
+            
+            <div id="tache_en_cours">
+                <ul class="to_do_list"></ul>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

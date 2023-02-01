@@ -1,0 +1,117 @@
+*
+{
+    padding: 0;
+    margin: 0;    
+    box-sizing: border-box;
+}
+
+/* FONT */
+
+
+/* Header  */
+
+header
+{
+    background-color: rgb(83, 74, 74);
+    color: #f0db4f;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    font-family: 'Indie Flower', cursive;  
+}
+
+h1
+{
+    font-size: 45px;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+
+.gris
+{
+    color: rgb(50, 45, 45);
+}
+
+.trait
+{
+    width: 35px;
+    height: 145px;
+    border: 1px solid #f0db4f;
+    background-color: #f0db4f;
+    margin-left: 10px;
+}
+
+/* fin header */
+
+
+
+label
+{
+    display: block;
+    width: 300px;
+    margin-top: 5px;
+}
+
+.bloc_form
+{
+    background-color: rgb(50, 45, 45);
+    display: flex;
+    justify-content: center;
+    height: auto;
+    color: white;
+}
+
+form
+{
+    display: flex;    
+    flex-direction: column;
+    margin-top: 5px;    
+}
+
+input
+{
+    margin-top: 5px;
+    height: 25px;
+    border-radius: 3px;
+}
+
+.btn
+{
+    margin-top: 5px;    
+    color: rgb(83, 74, 74);
+    text-align: center;
+    width: 300px;
+    text-transform: uppercase;
+    border-radius: 2px;     
+    display: flex;
+    justify-content: center;     
+}
+
+.bouton_ajouter
+{
+  background-color: #f0db4f; 
+  border: none; 
+  width: 75px;
+  height: 40px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.bouton_ajouter:hover
+{
+    background-color: rgb(83, 74, 74);
+    color: #f0db4f;
+}
+
+h2
+{
+    background-color: #f0db4f;
+    color: rgb(83, 74, 74);
+    text-align: center;
+    text-transform: uppercase;    
+}
+
+
